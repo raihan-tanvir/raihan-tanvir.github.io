@@ -250,12 +250,13 @@ img {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.jpg);
+  background: url(../images/lead-bg2.jpg);
   background-size: cover;
   background-attachment: fixed;
   padding: 15px;
   overflow: hidden;
   width: 100vw;
+  opacity: 5;
 }
 #lead h5 {
   color: #c5c9f3;
@@ -283,7 +284,7 @@ img {
   line-height: 0.9em;
 }
 #lead-content h2 {
-  color: #c5c9f3;
+  color: /*#c5c9f3*/#fff;
   font-weight: 500;
   font-size: 2.1vw;
   margin-bottom: 15px;
