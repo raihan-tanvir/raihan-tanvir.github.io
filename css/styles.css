@@ -103,7 +103,7 @@ header a:focus {
   text-decoration: none;
 }
 header.active {
-  color: #606388;
+  color: #293097;
   display: block;
 }
 header.sticky {
