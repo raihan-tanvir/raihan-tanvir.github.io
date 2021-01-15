@@ -79,7 +79,7 @@ header {
 }
 header ul {
   display: inline-block;
-  background: #5c67dc;
+  background: #636bc2;
   text-align: center;
   padding: 10px;
   margin: 0;
@@ -103,7 +103,6 @@ header a:focus {
   text-decoration: none;
 }
 header.active {
-  color: #293097;
   display: block;
 }
 header.sticky {
@@ -586,7 +585,7 @@ img {
 }
 #contact {
   padding: 50px 15px;
-  background: #5c67dc;
+  background: #636bc2;
   text-align: center;
 }
 #contact h2 {
