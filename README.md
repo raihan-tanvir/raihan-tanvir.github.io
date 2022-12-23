@@ -4,4 +4,4 @@
 
 [My website](https://raihan-tanvir.github.io/) -- made with the [Academic theme](https://sourcethemes.com/academic/) for [Hugo](https://gohugo.io).
 
-[![dark_theme](static/img/site_prev_dark.png)](https://raihan-tanvir.github.io/)
+[![dark_theme](preview.png)](https://raihan-tanvir.github.io/)
