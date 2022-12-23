@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raihan Tanvir</title><link>https://raihan-tanvir.github.io/</link><atom:link href="https://raihan-tanvir.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Raihan Tanvir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url><title>Raihan Tanvir</title><link>https://raihan-tanvir.github.io/</link></image><item><title>Example Talk</title><link>https://raihan-tanvir.github.io/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://raihan-tanvir.github.io/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Bengali Handwritten Digit Recognition using CNN with Explainable AI</title><link>https://raihan-tanvir.github.io/publication/bhwdr-xai/</link><pubDate>Sun, 18 Dec 2022 18:41:28 +0600</pubDate><guid>https://raihan-tanvir.github.io/publication/bhwdr-xai/</guid><description>&lt;iframe src="https://drive.google.com/file/d/1_gu8JJ-z3FbM276zCfJ4baHhcRgyYoAp/preview" width="720" height="920" allow="autoplay">&lt;/iframe></description></item><item><title>A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples</title><link>https://raihan-tanvir.github.io/publication/gan-bangla-bert/</link><pubDate>Thu, 14 Jul 2022 18:41:28 +0600</pubDate><guid>https://raihan-tanvir.github.io/publication/gan-bangla-bert/</guid><description>&lt;iframe src="https://drive.google.com/file/d/1_faSmC8FG6aEmosEgooDRr6LszKWb-oV/preview" width="100%" height="920" allow="autoplay">
+&lt;/iframe></description></item><item><title>Team Jamdani Reached the Top 50 at UNIBATOR</title><link>https://raihan-tanvir.github.io/news/unibator-top-50/</link><pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate><guid>https://raihan-tanvir.github.io/news/unibator-top-50/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://www.unibatorbd.org/wp-content/uploads/2022/03/top-50-01-1536x866.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>We are thrilled to announce that our team has made it to the top 50 at &lt;a href="https://www.unibatorbd.org/" target="_blank" rel="noopener">Unibator&lt;/a>, the most extensive venture incubation competition launched by the Ministry of ICT, Bangladesh Hi-Tech Park Authority (BHTPA), and the Institution of Engineers, Bangladesh (IEB. Our gratitude to &lt;a href="https://imruljubair.github.io/" target="_blank" rel="noopener">Mohammad Imrul Jubair&lt;/a> sir for driving us forward! Sir we are genuinely blessed to have you!&lt;/p></description></item><item><title>DSE Stock Price Prediction using Hidden Markov Model</title><link>https://raihan-tanvir.github.io/publication/dse-hmm/</link><pubDate>Sat, 04 Dec 2021 18:21:22 +0600</pubDate><guid>https://raihan-tanvir.github.io/publication/dse-hmm/</guid><description>&lt;iframe src="https://drive.google.com/file/d/1_myAWfFRNB21eIFwlkyQ4-uMV8CXYqLD/preview" width="720" height="920" allow="autoplay">&lt;/iframe></description></item><item><title>Jamdani Motif Generation using Conditional GAN</title><link>https://raihan-tanvir.github.io/publication/generative-jamdani/</link><pubDate>Sun, 06 Dec 2020 12:27:17 +0000</pubDate><guid>https://raihan-tanvir.github.io/publication/generative-jamdani/</guid><description>&lt;iframe src="https://drive.google.com/file/d/19wqqS6zVL5eIgNhH9GmLTxC_TEAu6Q_Q/preview" width="720" height="920" allow="autoplay">&lt;/iframe></description></item><item><title>Bengali Handwritten Character Recognition using Transfer Learning</title><link>https://raihan-tanvir.github.io/project/bhwcr-tl/</link><pubDate>Tue, 06 Oct 2020 12:56:37 +0000</pubDate><guid>https://raihan-tanvir.github.io/project/bhwcr-tl/</guid><description>&lt;p>We propose a solution which uses state-of-the-art techniques in Deep Learning to tackle the problem of Bengali Handwritten Character Recognition (HCR). Our method uses lesser iterations to train than most other comparable methods. We employ Transfer Learning on ResNet-50, a state-of-the-art deep Convolutional Neural Network Model, pretrained on ImageNet dataset.&lt;/p></description></item><item><title>Jamdani Artist</title><link>https://raihan-tanvir.github.io/project/jamdani-artist/</link><pubDate>Fri, 03 Jul 2020 22:59:55 +0600</pubDate><guid>https://raihan-tanvir.github.io/project/jamdani-artist/</guid><description>&lt;p>An interactive application for generating &lt;strong>Jamdani Motifs&lt;/strong> from user given strokes.
+This is a simple deployment of the &lt;strong>Generative-Jamdani Engine&lt;/strong> 😜 derived from the model trained with &lt;a href="https://raihan-tanvir.github.io/publication/generative-jamdani/">&lt;em>Jamdani Noksha Dataset&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Slides</title><link>https://raihan-tanvir.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://raihan-tanvir.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+&lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Efficiently write slides in Markdown&lt;/li>
+&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
+&lt;li>Supports speaker notes&lt;/li>
+&lt;li>Mobile friendly slides&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="controls">Controls&lt;/h2>
+&lt;ul>
+&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
+&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
+&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
+&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
+&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
+&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
+&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
+&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hakimel/reveal.js#pdf-export" target="_blank" rel="noopener">PDF Export&lt;/a>: &lt;code>E&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
+&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
+&lt;p>Code block:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">porridge&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">porridge&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Eating...&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>In-line math: $x + y = z$&lt;/p>
+&lt;p>Block math:&lt;/p>
+&lt;p>$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p>
+&lt;hr>
+&lt;h2 id="fragments">Fragments&lt;/h2>
+&lt;p>Make content appear incrementally&lt;/p>
+&lt;pre tabindex="0">&lt;code>{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code>&lt;/pre>&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
+&lt;span class="fragment " >
+One
+&lt;/span>
+&lt;span class="fragment " >
+&lt;strong>Two&lt;/strong>
+&lt;/span>
+&lt;span class="fragment " >
+Three
+&lt;/span>
+&lt;hr>
+&lt;p>A fragment can accept two optional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
+&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
+&lt;p>Add speaker notes to your presentation&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% speaker_note %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Only the speaker can read these notes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Press &lt;span class="sb">`S`&lt;/span> key to view
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /speaker_note %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
+&lt;aside class="notes">
+&lt;ul>
+&lt;li>Only the speaker can read these notes&lt;/li>
+&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
+&lt;/ul>
+&lt;/aside>
+&lt;hr>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;ul>
+&lt;li>black: Black background, white text, blue links (default)&lt;/li>
+&lt;li>white: White background, black text, blue links&lt;/li>
+&lt;li>league: Gray background, white text, blue links&lt;/li>
+&lt;li>beige: Beige background, dark text, brown links&lt;/li>
+&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>night: Black background, thick white text, orange links&lt;/li>
+&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
+&lt;li>simple: White background, black text, blue links&lt;/li>
+&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;section data-noprocess data-shortcode-slide
+data-background-image="/media/boards.jpg"
+>
+&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
+&lt;p>Customize the slide style and background&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-image&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/media/boards.jpg&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-color&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#0000FF&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;my-style&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
+&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
+&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h1&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h2&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h3&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">navy&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Blood Book</title><link>https://raihan-tanvir.github.io/project/blood-book/</link><pubDate>Fri, 02 Nov 2018 18:27:57 +0000</pubDate><guid>https://raihan-tanvir.github.io/project/blood-book/</guid><description>&lt;p>&lt;strong>Blood Book&lt;/strong> is a simple yet very effective application for finding nearby blood donors.&lt;/p></description></item><item><title>Car Arena</title><link>https://raihan-tanvir.github.io/project/carena-ecom/</link><pubDate>Wed, 01 Aug 2018 12:56:37 +0000</pubDate><guid>https://raihan-tanvir.github.io/project/carena-ecom/</guid><description>&lt;p>Car Arena is a website developed using HTML, CSS, JavaScript at the client side and raw PHP at the server side.&lt;/p></description></item><item><title>Super Shop Management System</title><link>https://raihan-tanvir.github.io/project/super-shop-management-system/</link><pubDate>Thu, 17 Aug 2017 14:29:44 +0000</pubDate><guid>https://raihan-tanvir.github.io/project/super-shop-management-system/</guid><description/></item><item><title>Aerial Assault</title><link>https://raihan-tanvir.github.io/project/aerial-assault/</link><pubDate>Fri, 03 Feb 2017 00:42:10 +0600</pubDate><guid>https://raihan-tanvir.github.io/project/aerial-assault/</guid><description>&lt;p>Aerial Assaul is a first person shooting games developed using C++ (iGraphics header).&lt;/p></description></item><item><title/><link>https://raihan-tanvir.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raihan-tanvir.github.io/admin/config.yml</guid><description/></item></channel></rss>
