@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://raihan-tanvir.github.io/sitemap.xml
