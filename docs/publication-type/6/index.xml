@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Raihan Tanvir</title>
+    <link>http://localhost:1313/publication-type/6/</link>
+      <atom:link href="http://localhost:1313/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jul 2022 18:41:28 +0600</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <title>6</title>
+      <link>http://localhost:1313/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples</title>
+      <link>http://localhost:1313/publication/gan-bangla-bert/</link>
+      <pubDate>Thu, 14 Jul 2022 18:41:28 +0600</pubDate>
+      <guid>http://localhost:1313/publication/gan-bangla-bert/</guid>
+      <description>&lt;iframe src=&#34;https://drive.google.com/file/d/1_faSmC8FG6aEmosEgooDRr6LszKWb-oV/preview&#34; width=&#34;100%&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

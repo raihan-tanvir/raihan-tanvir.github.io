@@ -1,0 +1,4554 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 18, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.544c97edee3891e8f256d9a81a094326.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+  <meta name="google-site-verification" content="8HA5dReNMVQWEbJvKcVtzRIZ3pIgdkoAcp_1FpynIZM" />
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEX6EN9319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-ZEX6EN9319', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Raihan Tanvir" />
+
+
+
+
+
+  
+
+<meta name="description" content="Personal Website of Raihan Tanvir" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/" />
+<link rel="canonical" href="https://example.com/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+    
+    <meta property="profile:first_name" content="Raihan">
+    <meta property="profile:last_name" content="Tanvir">
+  
+
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Raihan Tanvir" />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:title" content="Raihan Tanvir" />
+<meta property="og:description" content="Personal Website of Raihan Tanvir" /><meta property="og:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://example.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://example.com/"
+}
+</script>
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Raihan Tanvir" />
+  
+
+  
+
+
+  
+  <title>Raihan Tanvir</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.af58bb76e2f77811e22a6e43ed4f8bfa.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Raihan Tanvir</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Raihan Tanvir</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#news" data-target="#news"><span>News</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications" data-target="#publications"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching" data-target="#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#awards" data-target="#awards"><span>Awards</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/cv.html"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="home-section wg-about-biography  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle"
+           width="270" height="270"
+           src="/authors/admin/avatar_hude031b7a51b76daf64c3c8e0ab7d9917_4555464_270x270_fill_lanczos_center_3.png" alt="Raihan Tanvir">
+      
+
+      <div class="portrait-title">
+
+        <h2>Raihan Tanvir</h2>
+
+        <h3>Learner | Teacher | Researcher</h3>
+
+        
+        <h3>
+          <a href="https://www.aust.edu/cse/faculty_member/mr_raihan_tanvir" target="_blank" rel="noopener">
+          <span>Ahsanullah University of Science and Technology, Dhaka, Bangladesh</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=r7mfRoIAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/raihan-tanvir" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://bd.linkedin.com/in/raihantanvir" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.researchgate.net/profile/Raihan_Tanvir" target="_blank" rel="noopener" aria-label="researchgate">
+            <i class="ai ai-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/cv.html"  aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>About Me</h1>
+
+    
+    <div class="article-style">
+      <p style="text-align: justify;">I am a Lecturer in the Department of Computer Science and Engineering at Ahsanullah University of Science and Technology (AUST). Prior to joining AUST, I served as a Lecturer in Stamford University Bangladesh (SUB). </br></br>
+My research interests include, but are not limited to, artificial intelligence, computer vision, and natural language processing. The majority of my research is focused on the use of generative adversarial networks to tackle a variety of practical challenges in our country.</p>
+
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fa-solid fa-book-open"></i>
+            Computer Vision
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book-open"></i>
+            Natural Language Processing
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book-open"></i>
+            Explainable Artificial Intelligence
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book-open"></i>
+            Federated Learning
+          </li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in CSE, Ongoing</p>
+              <p class="institution">BRAC University, Dhaka, Bangladesh</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in CSE, 2021</p>
+              <p class="institution">Ahsanullah University of Science and Technology, Dhaka, Bangladesh</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="news" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Latest News</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/sti-2022/" >Presented a Paper in 2022 4th International Conference on Sustainable Technologies for Industry 4.0, Dhaka, Bangladesh</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 20, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/iccit-2020/" >Presented a Paper in 2022 19th International Conference on Distributed Computing and Artificial Intelligence, L’Aquila, Italy</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 20, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/unibator-top-50/" >Team Jamdani Reached the Top 50 at UNIBATOR</a>
+    </div>
+
+    
+    <a href="/post/unibator-top-50/"  class="summary-link">
+      <div class="article-style">
+        Overview We are thrilled to announce that our team has made it to the top 50 at Unibator, the most extensive venture incubation competition launched by the Ministry of ICT, Bangladesh Hi-Tech Park Authority (BHTPA), and the Institution of Engineers, Bangladesh (IEB).
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 9, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/dcai-2022/" >Participated in 2020 23rd International Conference on Computer and Information Technology (ICCIT), Dhaka, Bangladesh</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 20, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/iccit-2020-acceptance/" >Successfully defended my Undergraduate Thesis</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+
+  
+  
+  
+
+    
+    
+      
+    
+
+    
+    
+    
+    
+      
+    
+
+    
+
+    <div class="see-all">
+      <a href="/post/">
+        See all posts
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-collection" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Featured Publications</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Raihan Tanvir</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      MD Tanvir Rouf Shawon</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Md Humaion Kabir Mehedi</span>, <span >
+      Md Motahar Mahtab</span>, <span >
+      Annajiat Alim Rasel</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July, 2022
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      DCAI 2022
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+    
+    
+    <a href="/publication/gan-bangla-bert/" >
+      <div class="img-hover-zoom">
+        <img src="/publication/gan-bangla-bert/featured_huc68ea41f3720a10aefe233098d48e752_11683_d3a3a03be0a7763b8359e69c08af211b.webp" height="455" width="808"
+            class="article-banner" alt="A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples" loading="lazy">
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/gan-bangla-bert/" >A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples</a>
+  </div>
+
+  
+  <a href="/publication/gan-bangla-bert/"  class="summary-link">
+    <div class="article-style">
+      <p>Basic machine learning algorithms or transfer learning models work well for language categorization, but these models require a vast volume of annotated data. We need a better model to tackle the problem because labeled data is scarce. This problem may have a solution in GAN-BERT. To classify Bengali text, we developed a GAN-BERT based model, which is an adapted version of BERT. We used two different datasets for this purpose. One is a hate speech dataset, while the other is a fake news dataset. To understand how the GAN-Bert and basic BERT models behave with Bangla datasets, we experimented with both. With a small quantity of data, we were able to get a satisfactory result using GAN-BERT. We also demonstrated how the accuracy increases as the number of training samples increases. A comparison of performance between traditional BERT based Bangla-BERT and our GAN-Bangla-BERT model is also shown here, where we can see how these models react to a small number of labeled data.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-031-20859-1_3" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/gan-bangla-bert/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/gan-bangla-bert" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-20859-1_3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      MD Tanvir Rouf Shawon</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Raihan Tanvir</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Humaira Ferdous Shifa</span>, <span >
+      Susmoy Kar</span>, <span >
+      Mohammad Imrul Jubair</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December, 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      ICCIT
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/deep-learning/">Deep Learning</a>, <a href="/category/artificial-intelligence/">Artificial Intelligence</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+    
+    
+    <a href="/publication/generative-jamdani/" >
+      <div class="img-hover-zoom">
+        <img src="/publication/generative-jamdani/featured_huf60a17bac369a7bafec45998bd4b8084_3564599_f0779180c15495d89a758f3664b0d982.webp" height="455" width="808"
+            class="article-banner" alt="Jamdani Motif Generation using Conditional GAN" loading="lazy">
+      </div>
+    </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/publication/generative-jamdani/" >Jamdani Motif Generation using Conditional GAN</a>
+  </div>
+
+  
+  <a href="/publication/generative-jamdani/"  class="summary-link">
+    <div class="article-style">
+      <p>Jamdani is the strikingly patterned textile heritage of Bangladesh. The exclusive geometric motifs woven on the fabric are the most attractive part of this craftsmanship having a remarkable influence on textile and fine art. In this paper, we have developed a technique based on Generative  Adversarial Network that can learn to generate entirely new Jamdani patterns from a collection of Jamdani motifs that we assembled; the newly formed motifs can mimic the appearance of the original designs. Users can input the skeleton of the desired pattern in terms of rough strokes and our system finalizes the input by generating the complete motif which follows the geometric structure of real Jamdani ones. To serve this purpose, we collected and preprocessed a dataset containing a large number of Jamdani motifs images from authentic sources via fieldwork and applied a state-of-the-art method called pix2pix on it. To the best of our knowledge, this dataset is currently the only available dataset of Jamdani motifs in digital format for computer vision research. Our experimental results of the pix2pix model on this dataset show satisfactory outputs of computer-generated images of Jamdani motifs and we believe that our  work will open a new avenue for further research.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/document/9392654" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/generative-jamdani/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/generative-jamdani" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://docs.google.com/presentation/d/1CJOXBbj2N6j-DVpMRcZYD5F3yZ2RSWgn/edit?usp=sharing&amp;ouid=117251702990928147971&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=sZwqE2wFpFs" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ICCIT51783.2020.9392654" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="publications" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Recent Publications</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      MD Tanvir Rouf Shawon</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Raihan Tanvir</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Md. Golam Rabiul Alam</span>
+  </span>
+  (2022).
+  <a href="/publication/bhwdr-xai/">Bengali Handwritten Digit Recognition using CNN with Explainable AI</a>.
+  STI 2022.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/document/10103341" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/bhwdr-xai/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://docs.google.com/presentation/d/1GIT1d9KZLYHO3bCXQWJTmwgpXWiupE9We410mNE9H_Q/edit?usp=sharing" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Raihan Tanvir</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      MD Tanvir Rouf Shawon</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Md Humaion Kabir Mehedi</span>, <span >
+      Md Motahar Mahtab</span>, <span >
+      Annajiat Alim Rasel</span>
+  </span>
+  (2022).
+  <a href="/publication/gan-bangla-bert/">A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples</a>.
+  DCAI 2022.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-031-20859-1_3" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/gan-bangla-bert/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/gan-bangla-bert" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-20859-1_3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Raihan Tanvir</span>, <span >
+      MD Tanvir Rouf Shawon</span>, <span >
+      Md. Golam Rabiul Alam</span>
+  </span>
+  (2021).
+  <a href="/publication/dse-hmm/">DSE Stock Price Prediction using Hidden Markov Model</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2302.08911" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/dse-hmm/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      MD Tanvir Rouf Shawon</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Raihan Tanvir</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="equal contributions"></i>, <span >
+      Humaira Ferdous Shifa</span>, <span >
+      Susmoy Kar</span>, <span >
+      Mohammad Imrul Jubair</span>
+  </span>
+  (2020).
+  <a href="/publication/generative-jamdani/">Jamdani Motif Generation using Conditional GAN</a>.
+  ICCIT.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/document/9392654" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/generative-jamdani/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/generative-jamdani" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://docs.google.com/presentation/d/1CJOXBbj2N6j-DVpMRcZYD5F3yZ2RSWgn/edit?usp=sharing&amp;ouid=117251702990928147971&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=sZwqE2wFpFs" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ICCIT51783.2020.9392654" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-experience" class="home-section wg-experience  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Teaching</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.aust.edu/" target="_blank" rel="noopener"><img src="/media/icons/brands/aust.svg" width="56" height="56" alt="Ahsanullah University of Science and Technology" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Lecturer</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.aust.edu/" target="_blank" rel="noopener">Ahsanullah University of Science and Technology</a></div>
+              <div class="text-muted exp-meta">
+                November 2022 –
+                
+                  Present
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Dhaka, Bangladesh</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text"><p><strong>Courses:</strong></p>
+<ul>
+<li>CSE-4138: Soft Computing Lab [Spring'23, Fall'23]</li>
+<li>CSE-4107 : Artificial Intelligence [Spring'22]</li>
+<li>CSE-4108 : Artificial Intelligence Lab [Spring'22, Fall'22]</li>
+<li>CSE-3214 : Operating Systems Lab [Spring'22]</li>
+<li>CSE-2207 : Algorithms [Fall'22]</li>
+<li>CSE-2208 : Algorithms Lab [Fall'22, Spring'23]</li>
+<li>CSE-1231 : Numerical Methods and Computer Programming [Fall'23]</li>
+<li>CSE-1102 : Structured Programming Language Lab [Spring'22]</li>
+</ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.stamforduniversity.edu.bd" target="_blank" rel="noopener"><img src="/media/icons/brands/sub.svg" width="56" height="56" alt="Stamford University Bangladesh" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Lecturer</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.stamforduniversity.edu.bd" target="_blank" rel="noopener">Stamford University Bangladesh</a></div>
+              <div class="text-muted exp-meta">
+                March 2022 –
+                
+                  November 2022
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Dhaka, Bangladesh</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text"><p><strong>Courses:</strong></p>
+<ul>
+<li>MATH-135 : Discrete Mathematics [Summer'22]</li>
+<li>CSI-311 : Visual and Internet Programming [Spring'22]</li>
+<li>CSI-312 : Visual and Internet Programming Lab [Spring'22]</li>
+<li>CSI-313 : Operating Systems Lab  [Summer'22]</li>
+<li>CSI-323 : System Analysis and Design  [Summer'22]</li>
+<li>CSI-324 : System Analysis and Design Lab  [Summer'22]</li>
+<li>CSE-101 : Fundamentals of Computer Science [Spring'22, Summer'22]</li>
+</ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.aust.edu/" target="_blank" rel="noopener"><img src="/media/icons/brands/aust.svg" width="56" height="56" alt="Ahsanullah University of Science and Technology" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Adjunct Faculty</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.aust.edu/" target="_blank" rel="noopener">Ahsanullah University of Science and Technology</a></div>
+              <div class="text-muted exp-meta">
+                July 2021 –
+                
+                  October 2022
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Dhaka, Bangladesh</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text"><p><strong>Courses:</strong></p>
+<ul>
+<li>CSE-1200 : Software Development I (iGraphics) Lab [Fall'21]</li>
+<li>CSE-2214 : Assembly Language Programming Lab [Spring'21]</li>
+<li>CSE-3200 : Software Development V (ASP.NET MVC-5) Lab [Fall'20]</li>
+<li>CSE-4102 : Computer Networks Lab [Fall'21]</li>
+<li>CSE-1108 : Introduction to Computer Systems Lab [Fall'20, Spring'21]</li>
+</ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-accomplishments" class="home-section wg-accomplishments  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Certifications</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Sequence Models</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              Aug 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/a54117cdc7db8bd72367862c69cbd65c" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Improving Deep Neural Networks : Hyperparameter tuning, Regularization and Optimization</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              May 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/7f290a3772dece641018f12e0f671e12" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Structuring Machine Learning Projects</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              May 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/76f04589edbf22541b12884693e06d2a" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Neural Networks and Deep Learning</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              Apr 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/b8614672be632caa78fd8aa20273ef01" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Convolutional Neural Networks</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              Apr 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/97aad300ae25ef958fe3ce2703457c81" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://www.coursera.org" target="_blank" rel="noopener"><img src="/media/icons/brands/coursera.svg" width="56" height="56" alt="Coursera" loading="lazy"></a></div>
+          <div>
+        <div class="section-subheading card-title exp-title text-muted my-0">Computer Vision Basics</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
+
+              Mar 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+          <a class="card-link" href="https://coursera.org/share/bcf29f8f246bce64c6aecc28ca5f91f7" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="projects" class="home-section wg-portfolio  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Projects</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar ">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-deep-learning,-transfer-learning,-gan" class="btn btn-primary btn-lg">Deep Learning</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-php,-asp.net,-mvc" class="btn btn-primary btn-lg">Web Development</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-android,-flutter" class="btn btn-primary btn-lg">App Development</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-igraphics" class="btn btn-primary btn-lg">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container row js-layout-row ">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+      
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      
+        
+          <div class="col-12 isotope-item js-id-deep-learning js-id-transfer-learning js-id-bengali-ocr">
+        
+        
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="https://github.com/raihan-tanvir/bengali-hwcr" target="_blank" rel="noopener">Bengali Handwritten Character Recognition using Transfer Learning</a>
+    </div>
+
+    
+    <a href="https://github.com/raihan-tanvir/bengali-hwcr" target="_blank" rel="noopener" class="summary-link">
+      <div class="article-style">
+        We propose a solution which uses state-of-the-art techniques in Deep Learning to tackle the problem of Bengali Handwritten Character Recognition (HCR). Our method uses lesser iterations to train than most other comparable methods.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/bengali-hwcr" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>View Project</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="https://github.com/raihan-tanvir/bengali-hwcr" target="_blank" rel="noopener">
+        <img src="/project/bhwcr-tl/featured_huedacc79f0134fd74744b6eb25bc1d365_31511_3d6e0f317183bc35bbc829a5183552d2.webp" height="158" width="150"
+            alt="Bengali Handwritten Character Recognition using Transfer Learning" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item js-id-deep-learning js-id-gan js-id-ml5-js">
+        
+        
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="https://raihan-tanvir.github.io/generative-jamdani/" target="_blank" rel="noopener">Jamdani Artist</a>
+    </div>
+
+    
+    <a href="https://raihan-tanvir.github.io/generative-jamdani/" target="_blank" rel="noopener" class="summary-link">
+      <div class="article-style">
+        An interactive application for generating Jamdani Motifs from user given strokes. This is a simple deployment of the Generative-Jamdani Engine 😜 derived from the model trained with Jamdani Noksha Dataset.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://raihan-tanvir.github.io/generative-jamdani/" target="_blank" rel="noopener">
+    <i class="fas fa-paint-roller mr-1"></i>Live App</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/generative-jamdani/tree/gh-pages" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>View Project</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="https://raihan-tanvir.github.io/generative-jamdani/" target="_blank" rel="noopener">
+        <img src="/project/jamdani-artist/featured_huebd70d97f94bf02eabb4ea1127516793_90625_070653c13a616ab81851282ade0f8a78.webp" height="164" width="150"
+            alt="Jamdani Artist" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item js-id-android">
+        
+        
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="https://github.com/raihan-tanvir/blood-book" target="_blank" rel="noopener">Blood Book </a>
+    </div>
+
+    
+    <a href="https://github.com/raihan-tanvir/blood-book" target="_blank" rel="noopener" class="summary-link">
+      <div class="article-style">
+        Blood Book is a simple yet very effective application for finding nearby blood donors.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/blood-book" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>View Project</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="https://github.com/raihan-tanvir/blood-book" target="_blank" rel="noopener">
+        <img src="/project/blood-book/featured_hu9bc64747ddc18522e5ccc927f94de739_384362_d20b8cf34ab9ec35780046f0bed09364.webp" height="113" width="150"
+            alt="Blood Book " loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item js-id-web-development js-id-php js-id-e-commerce">
+        
+        
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="https://github.com/raihan-tanvir/car-arena" target="_blank" rel="noopener">Car Arena</a>
+    </div>
+
+    
+    <a href="https://github.com/raihan-tanvir/car-arena" target="_blank" rel="noopener" class="summary-link">
+      <div class="article-style">
+        Car Arena is a website developed using HTML, CSS, JavaScript at the client side and raw PHP at the server side.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/car-arena" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>View Project</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="https://github.com/raihan-tanvir/car-arena" target="_blank" rel="noopener">
+        <img src="/project/carena-ecom/featured_hua563220ef03494f385662ec61405b144_1244236_2d6a9bf467b0857893edac9ceeecdcba.webp" height="84" width="150"
+            alt="Car Arena" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item ">
+        
+        
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="https://github.com/raihan-tanvir/super-shop-management-swing" target="_blank" rel="noopener">Super Shop Management System</a>
+    </div>
+
+    
+    <a href="https://github.com/raihan-tanvir/super-shop-management-swing" target="_blank" rel="noopener" class="summary-link">
+      <div class="article-style">
+        A very handy application to manage super shops. The application is using Java SWING.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/raihan-tanvir/super-shop-management-swing" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>View Project</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="https://github.com/raihan-tanvir/super-shop-management-swing" target="_blank" rel="noopener">
+        <img src="/project/super-shop-management-system/featured_hu2e421391662a56c0aaf41d05daeaaed4_24160_61213c2ed0751b6b4b7471e6d28ab0a5.webp" height="120" width="150"
+            alt="Super Shop Management System" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+      </div>
+    
+
+  </div>
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact" class="home-section wg-contact  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Contact</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+    
+    
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        <div class="d-none">
+          <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary px-3 py-2 w-100">Send</button>
+      </form>
+    </div>
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:raihantanvir[dot]cse[at]aust[dot]edu">raihantanvir[dot]cse[at]aust[dot]edu</a></span>
+    </li>
+    
+
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">141-142, Love Road, Tejgaon I/A, Dhaka, 1208</span>
+      </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+      <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
+    </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+      <span>Sunday 10:40 am to 11:10 am<br>Tuesday 10:40 am to 11:10 am<br>Thursday 10:40 am to 11:10 am</span>
+    </li>
+    
+
+    
+
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <i class="fa-li fab fa-telegram fa-2x" aria-hidden="true"></i>
+      <a href="https://t.me/r_tanvir" target="_blank" rel="noopener">DM Me</a>
+    </li>
+    
+
+  </ul>
+
+  
+  <div class="d-none">
+    <input id="map-provider" value="mapnik">
+    <input id="map-lat" value="23.86672512617929">
+    <input id="map-lng" value="90.47125018293951">
+    <input id="map-dir" value="141-142, Love Road, Tejgaon I/A, Dhaka, 1208">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+  
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © Raihan Tanvir 2024, licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.ff7771056d34ad9f2de2d8f6a466e748.js"></script>
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

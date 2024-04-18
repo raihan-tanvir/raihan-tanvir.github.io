@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN | Raihan Tanvir</title>
+    <link>https://example.com/tag/cnn/</link>
+      <atom:link href="https://example.com/tag/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <description>CNN</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Dec 2022 18:41:28 +0600</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <title>CNN</title>
+      <link>https://example.com/tag/cnn/</link>
+    </image>
+    
+    <item>
+      <title>Bengali Handwritten Digit Recognition using CNN with Explainable AI</title>
+      <link>https://example.com/publication/bhwdr-xai/</link>
+      <pubDate>Sun, 18 Dec 2022 18:41:28 +0600</pubDate>
+      <guid>https://example.com/publication/bhwdr-xai/</guid>
+      <description>&lt;iframe src=&#34;https://drive.google.com/file/d/1_gu8JJ-z3FbM276zCfJ4baHhcRgyYoAp/preview&#34; width=&#34;720&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
