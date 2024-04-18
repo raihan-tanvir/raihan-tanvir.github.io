@@ -7355,11 +7355,11 @@ a:focus {
 
 .dark a,
 .dark h3.article-title a:hover {
-  color: #0088cc; }
+  color: #bbdefb; }
 
 .dark a:not(.btn):hover,
 .dark a:not(.btn):focus {
-  color: #0088cc; }
+  color: #bbdefb; }
 
 pre,
 code {
@@ -8198,18 +8198,18 @@ a.summary-link {
     color: #2962ff !important; }
 
 .dark .navbar {
-  background: #212529;
+  background: #282a36;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, 0.11); }
   .dark .navbar .navbar-nav .nav-link {
-    color: rgba(0, 136, 204, 0.85); }
+    color: rgba(255, 255, 255, 0.85); }
     .dark .navbar .navbar-nav .nav-link.active, .dark .navbar .navbar-nav .nav-link:hover, .dark .navbar .navbar-nav .nav-link:focus {
-      color: white; }
+      color: rgba(255, 255, 255, 0.8); }
     .dark .navbar .navbar-nav .nav-link.active {
       font-weight: bold !important;
-      color: white !important; }
+      color: rgba(255, 255, 255, 0.8) !important; }
   .dark .navbar .dropdown-item.active,
   .dark .navbar .dropdown-item-active {
-    color: white !important; }
+    color: rgba(255, 255, 255, 0.8) !important; }
 
 .navbar-toggler {
   border: 0 !important;
@@ -8217,7 +8217,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-toggler {
-  color: #0088cc; }
+  color: white; }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -8250,7 +8250,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-brand {
-  color: #999999; }
+  color: white; }
 
 .navbar-brand img {
   width: auto;
@@ -8265,7 +8265,7 @@ a.summary-link {
   color: #34495e; }
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
-  color: #0088cc; }
+  color: white; }
 
 @media (max-width: 991.98px) {
   .navbar-brand-mobile-wrapper {
@@ -8290,7 +8290,7 @@ a.summary-link {
     background-color: #fff;
     text-align: center !important; }
   .dark .navbar-collapse {
-    background-color: #212529; }
+    background-color: #282a36; }
   #navbar-main .main-menu-item .nav-item {
     padding: 10px 15px !important; }
   #navbar-main .main-menu-item .nav-item .nav-link {
@@ -8313,16 +8313,16 @@ ul.nav-icons li.nav-item a.nav-link {
   padding: 0; }
 
 .dark .dropdown-menu {
-  background-color: #212529 !important;
-  color: #0088cc !important; }
+  background-color: #282a36 !important;
+  color: white !important; }
 
 .dropdown-item {
   background-color: #fff !important;
   color: #34495e !important; }
 
 .dark .dropdown-item {
-  background-color: #212529 !important;
-  color: #0088cc !important; }
+  background-color: #282a36 !important;
+  color: white !important; }
 
 /*************************************************
  *  Pager.
@@ -9018,7 +9018,7 @@ html[dir='rtl'] body {
   color: #1565c0; }
 
 .home-section.dark a {
-  color: #0088cc; }
+  color: #bbdefb; }
 
 /* Override dark colors that may be inherited from body.dark */
 .home-section.dark,
@@ -9090,10 +9090,10 @@ html[dir='rtl'] body {
   background: #f7f7f7; }
 
 .dark .home-section {
-  background: #1d2127; }
+  background: #272935; }
 
 .dark .home-section:nth-of-type(even) {
-  background: #1d2127; }
+  background: #23252f; }
 
 @media screen and (max-width: 768px) {
   .home-section {
