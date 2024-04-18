@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Raihan Tanvir</title>
+    <link>https://raihan-tanvir.github.io/news/</link>
+      <atom:link href="https://raihan-tanvir.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <title>News</title>
+      <link>https://raihan-tanvir.github.io/news/</link>
+    </image>
+    
+    <item>
+      <title>Presented a Paper in 2022 4th International Conference on Sustainable Technologies for Industry 4.0, Dhaka, Bangladesh</title>
+      <link>https://raihan-tanvir.github.io/news/sti-2022/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/sti-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presented a Paper in 2022 19th International Conference on Distributed Computing and Artificial Intelligence, L’Aquila, Italy</title>
+      <link>https://raihan-tanvir.github.io/news/iccit-2020/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/iccit-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Jamdani Reached the Top 50 at UNIBATOR</title>
+      <link>https://raihan-tanvir.github.io/news/unibator-top-50/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/unibator-top-50/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.unibatorbd.org/wp-content/uploads/2022/03/top-50-01-1536x866.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;We are thrilled to announce that our team has made it to the top 50 at &lt;a href=&#34;https://www.unibatorbd.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unibator&lt;/a&gt;, the most extensive venture incubation competition launched by the Ministry of ICT, Bangladesh Hi-Tech Park Authority (BHTPA), and the Institution of Engineers, Bangladesh (IEB). Our gratitude to Mr. &lt;a href=&#34;https://imruljubair.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mohammad Imrul Jubair&lt;/a&gt; for driving us forward! Sir, we are genuinely blessed to have you!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Participated in 2020 23rd International Conference on Computer and Information Technology (ICCIT), Dhaka, Bangladesh</title>
+      <link>https://raihan-tanvir.github.io/news/dcai-2022/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/dcai-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Successfully defended my Undergraduate Thesis</title>
+      <link>https://raihan-tanvir.github.io/news/iccit-2020-acceptance/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/iccit-2020-acceptance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One paper got accepted at ICCIT 2020</title>
+      <link>https://raihan-tanvir.github.io/news/bsc-thesis/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://raihan-tanvir.github.io/news/bsc-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
