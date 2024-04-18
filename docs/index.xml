@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raihan Tanvir</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Raihan Tanvir</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
       <title>Raihan Tanvir</title>
-      <link>http://localhost:1313/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/talk/example-talk/</link>
+      <link>https://example.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talk/example-talk/</guid>
+      <guid>https://example.com/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,26 +34,26 @@
     
     <item>
       <title>Presented a Paper in 2022 4th International Conference on Sustainable Technologies for Industry 4.0, Dhaka, Bangladesh</title>
-      <link>http://localhost:1313/post/sti-2022/</link>
+      <link>https://example.com/post/sti-2022/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/sti-2022/</guid>
+      <guid>https://example.com/post/sti-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bengali Handwritten Digit Recognition using CNN with Explainable AI</title>
-      <link>http://localhost:1313/publication/bhwdr-xai/</link>
+      <link>https://example.com/publication/bhwdr-xai/</link>
       <pubDate>Sun, 18 Dec 2022 18:41:28 +0600</pubDate>
-      <guid>http://localhost:1313/publication/bhwdr-xai/</guid>
+      <guid>https://example.com/publication/bhwdr-xai/</guid>
       <description>&lt;iframe src=&#34;https://drive.google.com/file/d/1_gu8JJ-z3FbM276zCfJ4baHhcRgyYoAp/preview&#34; width=&#34;720&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>A GAN-BERT Based Approach for Bengali Text Classification with a Few Labeled Examples</title>
-      <link>http://localhost:1313/publication/gan-bangla-bert/</link>
+      <link>https://example.com/publication/gan-bangla-bert/</link>
       <pubDate>Thu, 14 Jul 2022 18:41:28 +0600</pubDate>
-      <guid>http://localhost:1313/publication/gan-bangla-bert/</guid>
+      <guid>https://example.com/publication/gan-bangla-bert/</guid>
       <description>&lt;iframe src=&#34;https://drive.google.com/file/d/1_faSmC8FG6aEmosEgooDRr6LszKWb-oV/preview&#34; width=&#34;100%&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;
 &lt;/iframe&gt;
 </description>
@@ -61,17 +61,17 @@
     
     <item>
       <title>Presented a Paper in 2022 19th International Conference on Distributed Computing and Artificial Intelligence, L’Aquila, Italy</title>
-      <link>http://localhost:1313/post/iccit-2020/</link>
+      <link>https://example.com/post/iccit-2020/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/iccit-2020/</guid>
+      <guid>https://example.com/post/iccit-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Team Jamdani Reached the Top 50 at UNIBATOR</title>
-      <link>http://localhost:1313/post/unibator-top-50/</link>
+      <link>https://example.com/post/unibator-top-50/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/unibator-top-50/</guid>
+      <guid>https://example.com/post/unibator-top-50/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
 
@@ -102,70 +102,70 @@
     
     <item>
       <title>DSE Stock Price Prediction using Hidden Markov Model</title>
-      <link>http://localhost:1313/publication/dse-hmm/</link>
+      <link>https://example.com/publication/dse-hmm/</link>
       <pubDate>Sat, 04 Dec 2021 18:21:22 +0600</pubDate>
-      <guid>http://localhost:1313/publication/dse-hmm/</guid>
+      <guid>https://example.com/publication/dse-hmm/</guid>
       <description>&lt;iframe src=&#34;https://drive.google.com/file/d/1_myAWfFRNB21eIFwlkyQ4-uMV8CXYqLD/preview&#34; width=&#34;720&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>Participated in 2020 23rd International Conference on Computer and Information Technology (ICCIT), Dhaka, Bangladesh</title>
-      <link>http://localhost:1313/post/dcai-2022/</link>
+      <link>https://example.com/post/dcai-2022/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/dcai-2022/</guid>
+      <guid>https://example.com/post/dcai-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jamdani Motif Generation using Conditional GAN</title>
-      <link>http://localhost:1313/publication/generative-jamdani/</link>
+      <link>https://example.com/publication/generative-jamdani/</link>
       <pubDate>Sun, 06 Dec 2020 12:27:17 +0000</pubDate>
-      <guid>http://localhost:1313/publication/generative-jamdani/</guid>
+      <guid>https://example.com/publication/generative-jamdani/</guid>
       <description>&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/19wqqS6zVL5eIgNhH9GmLTxC_TEAu6Q_Q/preview&#34; width=&#34;720&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt; --&gt;
 &lt;iframe width=&#34;720&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/sZwqE2wFpFs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>Successfully defended my Undergraduate Thesis</title>
-      <link>http://localhost:1313/post/iccit-2020-acceptance/</link>
+      <link>https://example.com/post/iccit-2020-acceptance/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/iccit-2020-acceptance/</guid>
+      <guid>https://example.com/post/iccit-2020-acceptance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>One paper got accepted at ICCIT 2020</title>
-      <link>http://localhost:1313/post/bsc-thesis/</link>
+      <link>https://example.com/post/bsc-thesis/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/bsc-thesis/</guid>
+      <guid>https://example.com/post/bsc-thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bengali Handwritten Character Recognition using Transfer Learning</title>
-      <link>http://localhost:1313/project/bhwcr-tl/</link>
+      <link>https://example.com/project/bhwcr-tl/</link>
       <pubDate>Tue, 06 Oct 2020 12:56:37 +0000</pubDate>
-      <guid>http://localhost:1313/project/bhwcr-tl/</guid>
+      <guid>https://example.com/project/bhwcr-tl/</guid>
       <description>&lt;p&gt;We propose a solution which uses state-of-the-art techniques in Deep Learning to tackle the problem of Bengali Handwritten Character Recognition (HCR). Our method uses lesser iterations to train than most other comparable methods. We employ Transfer Learning on ResNet-50, a state-of-the-art deep Convolutional Neural Network Model, pretrained on ImageNet dataset.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jamdani Artist</title>
-      <link>http://localhost:1313/project/jamdani-artist/</link>
+      <link>https://example.com/project/jamdani-artist/</link>
       <pubDate>Fri, 03 Jul 2020 22:59:55 +0600</pubDate>
-      <guid>http://localhost:1313/project/jamdani-artist/</guid>
+      <guid>https://example.com/project/jamdani-artist/</guid>
       <description>&lt;p&gt;An interactive application for generating &lt;strong&gt;Jamdani Motifs&lt;/strong&gt; from user given strokes.
-This is a simple deployment of the &lt;strong&gt;Generative-Jamdani Engine&lt;/strong&gt; 😜 derived from the model trained with &lt;a href=&#34;http://localhost:1313/publication/generative-jamdani/&#34;&gt;&lt;em&gt;Jamdani Noksha Dataset&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+This is a simple deployment of the &lt;strong&gt;Generative-Jamdani Engine&lt;/strong&gt; 😜 derived from the model trained with &lt;a href=&#34;https://example.com/publication/generative-jamdani/&#34;&gt;&lt;em&gt;Jamdani Noksha Dataset&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://example.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://example.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-hugo-blox-builder&#34;&gt;Create slides in Markdown with Hugo Blox Builder&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; | &lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -288,27 +288,27 @@ $$&lt;/p&gt;
     
     <item>
       <title>Blood Book </title>
-      <link>http://localhost:1313/project/blood-book/</link>
+      <link>https://example.com/project/blood-book/</link>
       <pubDate>Fri, 02 Nov 2018 18:27:57 +0000</pubDate>
-      <guid>http://localhost:1313/project/blood-book/</guid>
+      <guid>https://example.com/project/blood-book/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Blood Book&lt;/strong&gt; is a simple yet very effective application for finding nearby blood donors.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Car Arena</title>
-      <link>http://localhost:1313/project/carena-ecom/</link>
+      <link>https://example.com/project/carena-ecom/</link>
       <pubDate>Wed, 01 Aug 2018 12:56:37 +0000</pubDate>
-      <guid>http://localhost:1313/project/carena-ecom/</guid>
+      <guid>https://example.com/project/carena-ecom/</guid>
       <description>&lt;p&gt;Car Arena is a website developed using HTML, CSS, JavaScript at the client side and raw PHP at the server side.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Super Shop Management System</title>
-      <link>http://localhost:1313/project/super-shop-management-system/</link>
+      <link>https://example.com/project/super-shop-management-system/</link>
       <pubDate>Thu, 17 Aug 2017 14:29:44 +0000</pubDate>
-      <guid>http://localhost:1313/project/super-shop-management-system/</guid>
+      <guid>https://example.com/project/super-shop-management-system/</guid>
       <description></description>
     </item>
     

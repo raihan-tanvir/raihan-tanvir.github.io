@@ -3,7 +3,7 @@
 <!-- Last Published: April 18, 2024 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.544c97edee3891e8f256d9a81a094326.css" />
 
   
   
@@ -239,6 +239,45 @@
   <meta name="google-site-verification" content="8HA5dReNMVQWEbJvKcVtzRIZ3pIgdkoAcp_1FpynIZM" />
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEX6EN9319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-ZEX6EN9319', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -284,8 +323,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/generative-jamdani/" />
-<link rel="canonical" href="http://localhost:1313/publication/generative-jamdani/" />
+<link rel="alternate" hreflang="en-us" href="https://example.com/publication/generative-jamdani/" />
+<link rel="canonical" href="https://example.com/publication/generative-jamdani/" />
 
 
 
@@ -315,7 +354,7 @@
 
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:1313/publication/generative-jamdani/featured.jpg" />
+<meta property="twitter:image" content="https://example.com/publication/generative-jamdani/featured.jpg" />
 
 
 
@@ -323,9 +362,9 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Raihan Tanvir" />
-<meta property="og:url" content="http://localhost:1313/publication/generative-jamdani/" />
+<meta property="og:url" content="https://example.com/publication/generative-jamdani/" />
 <meta property="og:title" content="Jamdani Motif Generation using Conditional GAN | Raihan Tanvir" />
-<meta property="og:description" content="Jamdani is the strikingly patterned textile heritage of Bangladesh. The exclusive geometric motifs woven on the fabric are the most attractive part of this craftsmanship having a remarkable influence on textile and fine art. In this paper, we have developed a technique based on Generative  Adversarial Network that can learn to generate entirely new Jamdani patterns from a collection of Jamdani motifs that we assembled; the newly formed motifs can mimic the appearance of the original designs. Users can input the skeleton of the desired pattern in terms of rough strokes and our system finalizes the input by generating the complete motif which follows the geometric structure of real Jamdani ones. To serve this purpose, we collected and preprocessed a dataset containing a large number of Jamdani motifs images from authentic sources via fieldwork and applied a state-of-the-art method called pix2pix on it. To the best of our knowledge, this dataset is currently the only available dataset of Jamdani motifs in digital format for computer vision research. Our experimental results of the pix2pix model on this dataset show satisfactory outputs of computer-generated images of Jamdani motifs and we believe that our  work will open a new avenue for further research." /><meta property="og:image" content="http://localhost:1313/publication/generative-jamdani/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Jamdani is the strikingly patterned textile heritage of Bangladesh. The exclusive geometric motifs woven on the fabric are the most attractive part of this craftsmanship having a remarkable influence on textile and fine art. In this paper, we have developed a technique based on Generative  Adversarial Network that can learn to generate entirely new Jamdani patterns from a collection of Jamdani motifs that we assembled; the newly formed motifs can mimic the appearance of the original designs. Users can input the skeleton of the desired pattern in terms of rough strokes and our system finalizes the input by generating the complete motif which follows the geometric structure of real Jamdani ones. To serve this purpose, we collected and preprocessed a dataset containing a large number of Jamdani motifs images from authentic sources via fieldwork and applied a state-of-the-art method called pix2pix on it. To the best of our knowledge, this dataset is currently the only available dataset of Jamdani motifs in digital format for computer vision research. Our experimental results of the pix2pix model on this dataset show satisfactory outputs of computer-generated images of Jamdani motifs and we believe that our  work will open a new avenue for further research." /><meta property="og:image" content="https://example.com/publication/generative-jamdani/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -358,12 +397,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/publication/generative-jamdani/"
+    "@id": "https://example.com/publication/generative-jamdani/"
   },
   "headline": "Jamdani Motif Generation using Conditional GAN",
   
   "image": [
-    "http://localhost:1313/publication/generative-jamdani/featured.jpg"
+    "https://example.com/publication/generative-jamdani/featured.jpg"
   ],
   
   "datePublished": "2017-01-01T00:00:00Z",
@@ -379,7 +418,7 @@
     "name": "Raihan Tanvir",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
+      "url": "https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Jamdani is the strikingly patterned textile heritage of Bangladesh. The exclusive geometric motifs woven on the fabric are the most attractive part of this craftsmanship having a remarkable influence on textile and fine art. In this paper, we have developed a technique based on Generative  Adversarial Network that can learn to generate entirely new Jamdani patterns from a collection of Jamdani motifs that we assembled; the newly formed motifs can mimic the appearance of the original designs. Users can input the skeleton of the desired pattern in terms of rough strokes and our system finalizes the input by generating the complete motif which follows the geometric structure of real Jamdani ones. To serve this purpose, we collected and preprocessed a dataset containing a large number of Jamdani motifs images from authentic sources via fieldwork and applied a state-of-the-art method called pix2pix on it. To the best of our knowledge, this dataset is currently the only available dataset of Jamdani motifs in digital format for computer vision research. Our experimental results of the pix2pix model on this dataset show satisfactory outputs of computer-generated images of Jamdani motifs and we believe that our  work will open a new avenue for further research."
@@ -435,7 +474,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.af58bb76e2f77811e22a6e43ed4f8bfa.js"></script>
 
   
 
@@ -1134,7 +1173,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F&amp;text=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F&amp;text=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1151,7 +1190,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F&amp;t=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F&amp;t=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1170,7 +1209,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Jamdani%20Motif%20Generation%20using%20Conditional%20GAN&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Jamdani%20Motif%20Generation%20using%20Conditional%20GAN&amp;body=https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1187,7 +1226,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F&amp;title=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F&amp;title=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1204,7 +1243,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN%20https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1221,7 +1260,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgenerative-jamdani%2F&amp;title=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpublication%2Fgenerative-jamdani%2F&amp;title=Jamdani&#43;Motif&#43;Generation&#43;using&#43;Conditional&#43;GAN" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1387,7 +1426,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.ff7771056d34ad9f2de2d8f6a466e748.js"></script>
 
 
 
@@ -1468,7 +1507,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-  <script src="/js/wowchemy-headroom.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1482,11 +1521,11 @@
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1519,7 +1558,7 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 

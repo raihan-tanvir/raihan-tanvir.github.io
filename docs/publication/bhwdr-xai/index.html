@@ -3,7 +3,7 @@
 <!-- Last Published: April 18, 2024 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.544c97edee3891e8f256d9a81a094326.css" />
 
   
   
@@ -239,6 +239,45 @@
   <meta name="google-site-verification" content="8HA5dReNMVQWEbJvKcVtzRIZ3pIgdkoAcp_1FpynIZM" />
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEX6EN9319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-ZEX6EN9319', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -284,8 +323,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/bhwdr-xai/" />
-<link rel="canonical" href="http://localhost:1313/publication/bhwdr-xai/" />
+<link rel="alternate" hreflang="en-us" href="https://example.com/publication/bhwdr-xai/" />
+<link rel="canonical" href="https://example.com/publication/bhwdr-xai/" />
 
 
 
@@ -316,7 +355,7 @@
 
 
 <meta property="twitter:card" content="summary" />
-<meta property="twitter:image" content="http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" />
 
 
 
@@ -324,9 +363,9 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Raihan Tanvir" />
-<meta property="og:url" content="http://localhost:1313/publication/bhwdr-xai/" />
+<meta property="og:url" content="https://example.com/publication/bhwdr-xai/" />
 <meta property="og:title" content="Bengali Handwritten Digit Recognition using CNN with Explainable AI | Raihan Tanvir" />
-<meta property="og:description" content="Handwritten character recognition is a hot topic for research now-a-days. If we can convert a handwritten piece of paper into a text-searchable document using the Optical Character Recognition (OCR) technique, we can easily understand the content and do not need to read a handwritten document. OCR in the English language is very common, but in the Bengali language, it is very hard to find a good quality OCR application. If we can merge machine learning and deep learning with OCR, it can be a huge contribution to this field. A variety of techniques have been suggested by various researchers on Bengali handwritten character recognition. A lot of machine learning algorithms and deep neural networks were used in their work, but the explanations of their models are not available. In our work, we have used different machine learning models and CNN also to recognize handwritten Bengali digits. We have got acceptable accuracy from some ML models, and CNN has given us great testing accuracy. Grad-CAM was used as an XAI method on our CNN model, which gave us insights about the model and helped us to detect the origin of interest for recognizing a digit from an image." /><meta property="og:image" content="http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Handwritten character recognition is a hot topic for research now-a-days. If we can convert a handwritten piece of paper into a text-searchable document using the Optical Character Recognition (OCR) technique, we can easily understand the content and do not need to read a handwritten document. OCR in the English language is very common, but in the Bengali language, it is very hard to find a good quality OCR application. If we can merge machine learning and deep learning with OCR, it can be a huge contribution to this field. A variety of techniques have been suggested by various researchers on Bengali handwritten character recognition. A lot of machine learning algorithms and deep neural networks were used in their work, but the explanations of their models are not available. In our work, we have used different machine learning models and CNN also to recognize handwritten Bengali digits. We have got acceptable accuracy from some ML models, and CNN has given us great testing accuracy. Grad-CAM was used as an XAI method on our CNN model, which gave us insights about the model and helped us to detect the origin of interest for recognizing a digit from an image." /><meta property="og:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -359,7 +398,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/publication/bhwdr-xai/"
+    "@id": "https://example.com/publication/bhwdr-xai/"
   },
   "headline": "Bengali Handwritten Digit Recognition using CNN with Explainable AI",
   
@@ -376,7 +415,7 @@
     "name": "Raihan Tanvir",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
+      "url": "https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Handwritten character recognition is a hot topic for research now-a-days. If we can convert a handwritten piece of paper into a text-searchable document using the Optical Character Recognition (OCR) technique, we can easily understand the content and do not need to read a handwritten document. OCR in the English language is very common, but in the Bengali language, it is very hard to find a good quality OCR application. If we can merge machine learning and deep learning with OCR, it can be a huge contribution to this field. A variety of techniques have been suggested by various researchers on Bengali handwritten character recognition. A lot of machine learning algorithms and deep neural networks were used in their work, but the explanations of their models are not available. In our work, we have used different machine learning models and CNN also to recognize handwritten Bengali digits. We have got acceptable accuracy from some ML models, and CNN has given us great testing accuracy. Grad-CAM was used as an XAI method on our CNN model, which gave us insights about the model and helped us to detect the origin of interest for recognizing a digit from an image."
@@ -432,7 +471,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.af58bb76e2f77811e22a6e43ed4f8bfa.js"></script>
 
   
 
@@ -1100,7 +1139,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F&amp;text=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F&amp;text=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1117,7 +1156,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F&amp;t=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F&amp;t=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1136,7 +1175,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Bengali%20Handwritten%20Digit%20Recognition%20using%20CNN%20with%20Explainable%20AI&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Bengali%20Handwritten%20Digit%20Recognition%20using%20CNN%20with%20Explainable%20AI&amp;body=https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1153,7 +1192,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F&amp;title=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F&amp;title=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1170,7 +1209,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI%20https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1187,7 +1226,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbhwdr-xai%2F&amp;title=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpublication%2Fbhwdr-xai%2F&amp;title=Bengali&#43;Handwritten&#43;Digit&#43;Recognition&#43;using&#43;CNN&#43;with&#43;Explainable&#43;AI" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1341,7 +1380,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.ff7771056d34ad9f2de2d8f6a466e748.js"></script>
 
 
 
@@ -1422,7 +1461,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-  <script src="/js/wowchemy-headroom.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1436,11 +1475,11 @@
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1473,7 +1512,7 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 
