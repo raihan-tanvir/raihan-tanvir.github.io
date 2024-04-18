@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning | Raihan Tanvir</title>
-    <link>https://example.com/tag/deep-learning/</link>
-      <atom:link href="https://example.com/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://raihan-tanvir.github.io/tag/deep-learning/</link>
+      <atom:link href="https://raihan-tanvir.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Dec 2020 12:27:17 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <url>https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
-      <link>https://example.com/tag/deep-learning/</link>
+      <link>https://raihan-tanvir.github.io/tag/deep-learning/</link>
     </image>
     
     <item>
       <title>Jamdani Motif Generation using Conditional GAN</title>
-      <link>https://example.com/publication/generative-jamdani/</link>
+      <link>https://raihan-tanvir.github.io/publication/generative-jamdani/</link>
       <pubDate>Sun, 06 Dec 2020 12:27:17 +0000</pubDate>
-      <guid>https://example.com/publication/generative-jamdani/</guid>
+      <guid>https://raihan-tanvir.github.io/publication/generative-jamdani/</guid>
       <description>&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/19wqqS6zVL5eIgNhH9GmLTxC_TEAu6Q_Q/preview&#34; width=&#34;720&#34; height=&#34;920&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt; --&gt;
 &lt;iframe width=&#34;720&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/sZwqE2wFpFs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>Bengali Handwritten Character Recognition using Transfer Learning</title>
-      <link>https://example.com/project/bhwcr-tl/</link>
+      <link>https://raihan-tanvir.github.io/project/bhwcr-tl/</link>
       <pubDate>Tue, 06 Oct 2020 12:56:37 +0000</pubDate>
-      <guid>https://example.com/project/bhwcr-tl/</guid>
+      <guid>https://raihan-tanvir.github.io/project/bhwcr-tl/</guid>
       <description>&lt;p&gt;We propose a solution which uses state-of-the-art techniques in Deep Learning to tackle the problem of Bengali Handwritten Character Recognition (HCR). Our method uses lesser iterations to train than most other comparable methods. We employ Transfer Learning on ResNet-50, a state-of-the-art deep Convolutional Neural Network Model, pretrained on ImageNet dataset.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Jamdani Artist</title>
-      <link>https://example.com/project/jamdani-artist/</link>
+      <link>https://raihan-tanvir.github.io/project/jamdani-artist/</link>
       <pubDate>Fri, 03 Jul 2020 22:59:55 +0600</pubDate>
-      <guid>https://example.com/project/jamdani-artist/</guid>
+      <guid>https://raihan-tanvir.github.io/project/jamdani-artist/</guid>
       <description>&lt;p&gt;An interactive application for generating &lt;strong&gt;Jamdani Motifs&lt;/strong&gt; from user given strokes.
-This is a simple deployment of the &lt;strong&gt;Generative-Jamdani Engine&lt;/strong&gt; 😜 derived from the model trained with &lt;a href=&#34;https://example.com/publication/generative-jamdani/&#34;&gt;&lt;em&gt;Jamdani Noksha Dataset&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+This is a simple deployment of the &lt;strong&gt;Generative-Jamdani Engine&lt;/strong&gt; 😜 derived from the model trained with &lt;a href=&#34;https://raihan-tanvir.github.io/publication/generative-jamdani/&#34;&gt;&lt;em&gt;Jamdani Noksha Dataset&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
