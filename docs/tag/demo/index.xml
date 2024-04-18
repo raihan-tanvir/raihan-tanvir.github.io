@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo | Raihan Tanvir</title>
+    <link>http://localhost:1313/tag/demo/</link>
+      <atom:link href="http://localhost:1313/tag/demo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <title>Demo</title>
+      <link>http://localhost:1313/tag/demo/</link>
+    </image>
+    
+    <item>
+      <title>External Project</title>
+      <link>http://localhost:1313/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

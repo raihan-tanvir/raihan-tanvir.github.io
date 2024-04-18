@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transfer Learning | Raihan Tanvir</title>
-    <link>https://raihan-tanvir.github.io/tag/transfer-learning/</link>
-      <atom:link href="https://raihan-tanvir.github.io/tag/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/transfer-learning/</link>
+      <atom:link href="https://example.com/tag/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Transfer Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 06 Oct 2020 12:56:37 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 06 Oct 2020 12:56:37 +0000</lastBuildDate>
     <image>
-      <url>https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png</url>
       <title>Transfer Learning</title>
-      <link>https://raihan-tanvir.github.io/tag/transfer-learning/</link>
+      <link>https://example.com/tag/transfer-learning/</link>
     </image>
     
     <item>
       <title>Bengali Handwritten Character Recognition using Transfer Learning</title>
-      <link>https://raihan-tanvir.github.io/project/bhwcr-tl/</link>
+      <link>https://example.com/project/bhwcr-tl/</link>
       <pubDate>Tue, 06 Oct 2020 12:56:37 +0000</pubDate>
-      <guid>https://raihan-tanvir.github.io/project/bhwcr-tl/</guid>
+      <guid>https://example.com/project/bhwcr-tl/</guid>
       <description>&lt;p&gt;We propose a solution which uses state-of-the-art techniques in Deep Learning to tackle the problem of Bengali Handwritten Character Recognition (HCR). Our method uses lesser iterations to train than most other comparable methods. We employ Transfer Learning on ResNet-50, a state-of-the-art deep Convolutional Neural Network Model, pretrained on ImageNet dataset.&lt;/p&gt;
 </description>
     </item>

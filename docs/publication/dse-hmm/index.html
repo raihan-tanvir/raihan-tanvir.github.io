@@ -1,16 +1,31 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 18, 2024 --><html lang="en-us" >
 
 
 <head>
-  <link rel="stylesheet" href="css/style.css"/>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
   
   
-    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
   
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
 
   
   
@@ -49,49 +64,20 @@
 
   
   
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Raihan Tanvir" />
 
   
-  
-  
-    
-  
-  <meta name="description" content="As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&#39;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome." />
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://raihan-tanvir.github.io/publication/dse-hmm/" />
-
-  
-  
-  
-    <meta name="theme-color" content="#1565c0" />
-  
-
-  
-  
-    
-    <script src="/js/mathjax-config.js"></script>
   
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
   
     
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -107,130 +93,101 @@
     
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
       
     
+      
+      
+
+      
+      
+
+      
     
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
       
       
         
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
       
 
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -256,9 +213,31 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.dfd9b129916fef92658ca743b22a5bc4.css" />
+  
+  <link rel="stylesheet" href="/css/wowchemy.544c97edee3891e8f256d9a81a094326.css" />
 
   
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+  <meta name="google-site-verification" content="8HA5dReNMVQWEbJvKcVtzRIZ3pIgdkoAcp_1FpynIZM" />
+
 
 
 
@@ -301,68 +280,106 @@
 </script>
 
 
-  
-
-
-  
-
-
-  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
 
-  
+
+
+
+
+
+  <meta name="author" content="Raihan Tanvir" />
+
+
+
+
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
+
+<meta name="description" content="As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&#39;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/publication/dse-hmm/" />
+<link rel="canonical" href="https://example.com/publication/dse-hmm/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
   
 
-  <link rel="icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://raihan-tanvir.github.io/publication/dse-hmm/" />
 
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" />
+
+
 
   
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Raihan Tanvir" />
+<meta property="og:url" content="https://example.com/publication/dse-hmm/" />
+<meta property="og:title" content="DSE Stock Price Prediction using Hidden Markov Model | Raihan Tanvir" />
+<meta property="og:description" content="As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&#39;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome." /><meta property="og:image" content="https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
   
-    
-    
+    <meta
+      property="article:published_time"
+      content="2021-11-03T18:21:22&#43;06:00"
+    />
   
-  <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="Raihan Tanvir" />
-  <meta property="og:url" content="https://raihan-tanvir.github.io/publication/dse-hmm/" />
-  <meta property="og:title" content="DSE Stock Price Prediction using Hidden Markov Model | Raihan Tanvir" />
-  <meta property="og:description" content="As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&#39;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome." /><meta property="og:image" content="https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-  
-    
-      <meta
-        property="article:published_time"
-        content="2021-11-03T18:21:22&#43;06:00"
-      />
-    
     <meta property="article:modified_time" content="2021-12-04T18:21:22&#43;06:00">
   
 
-  
+
+
+
 
 
     
@@ -381,7 +398,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://raihan-tanvir.github.io/publication/dse-hmm/"
+    "@id": "https://example.com/publication/dse-hmm/"
   },
   "headline": "DSE Stock Price Prediction using Hidden Markov Model",
   
@@ -398,7 +415,7 @@
     "name": "Raihan Tanvir",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://raihan-tanvir.github.io/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
+      "url": "https://example.com/media/icon_huc6c5382358722d4f6a55cb1809a7ae52_51890_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company's stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome."
@@ -409,27 +426,39 @@
 
   
 
+
+
+
+  
+  
+  
+
+  
   
 
   
 
 
-
-
-
+  
   <title>DSE Stock Price Prediction using Hidden Markov Model | Raihan Tanvir</title>
-  
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEX6EN9319"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-ZEX6EN9319');
-  </script>
   
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
 </head>
+
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2a71826f3316298124634d5abc18cedc" >
 
@@ -442,7 +471,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2db520d47e039edf227cacb0405211b6.js"></script>
+  <script src="/js/wowchemy-init.min.af58bb76e2f77811e22a6e43ed4f8bfa.js"></script>
 
   
 
@@ -486,8 +515,12 @@
 
 
 
-  <div class="page-header">
-    
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
 
 
 
@@ -500,7 +533,7 @@
 
 
 
-<header class="header--fixed">
+<header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
 
@@ -835,6 +868,11 @@
 
         
         
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
         
@@ -877,15 +915,16 @@
     
 
 
-
-
-
-
+  
+    
+    
+  
 
 
 <div class="pub">
 
   
+
 
 
 
@@ -923,7 +962,7 @@
 
   <span >
       Raihan Tanvir</span>, <span >
-      Md Tanvir Rouf Shawon</span>, <span >
+      MD Tanvir Rouf Shawon</span>, <span >
       Md. Golam Rabiul Alam</span>
   </div>
   
@@ -1016,7 +1055,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" style="text-align: justify;">As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&rsquo;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome.</p>
+    <p class="pub-abstract">As a classic problem, stock market prediction is a topic that has been extensively explored utilizing machine learning and artificial neural network-based tools and techniques. Interesting aspects of this problem include its time reliance as well as its volatility and other such complex relationships. To combine them, hidden Markov models (HMMs) have been utilized to anticipate and predict the stock market. We demonstrated the Maximum a Posteriori HMM method for predicting stock prices for the next day based on previous data. HMM is trained by analyzing the fractional change in the stock price as well as the intraday high and low values. It is then used to create a Maximum a Posteriori decision across all possible stock prices for the next day using the HMM model. The approach demonstrated in our work is quite generalized and can be used to predict the stock prices for any company, given that the hmm is trained on the dataset of that company&rsquo;s stocks dataset. We evaluated the accuracy of our models using some extensively used accuracy metrics for regression problems and came up with a satisfactory outcome.</p>
     
 
     
@@ -1027,7 +1066,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
+            <a href="/publication/#preprint">
               Preprint
             </a>
           </div>
@@ -1046,6 +1085,7 @@
 </div>
 
     
+
 
 
 
@@ -1074,8 +1114,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://raihan-tanvir.github.io/publication/dse-hmm/&amp;text=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F&amp;text=DSE&#43;Stock&#43;Price&#43;Prediction&#43;using&#43;Hidden&#43;Markov&#43;Model" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1087,8 +1131,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://raihan-tanvir.github.io/publication/dse-hmm/&amp;t=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F&amp;t=DSE&#43;Stock&#43;Price&#43;Prediction&#43;using&#43;Hidden&#43;Markov&#43;Model" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1100,8 +1148,14 @@
       
       
       
+      
+      
+      
+      
+        
+      
       <li>
-        <a href="mailto:?subject=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model&amp;body=https://raihan-tanvir.github.io/publication/dse-hmm/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model&amp;body=https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1113,8 +1167,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://raihan-tanvir.github.io/publication/dse-hmm/&amp;title=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F&amp;title=DSE&#43;Stock&#43;Price&#43;Prediction&#43;using&#43;Hidden&#43;Markov&#43;Model" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1126,9 +1184,30 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="whatsapp://send?text=DSE%20Stock%20Price%20Prediction%20using%20Hidden%20Markov%20Model%20https://raihan-tanvir.github.io/publication/dse-hmm/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=DSE&#43;Stock&#43;Price&#43;Prediction&#43;using&#43;Hidden&#43;Markov&#43;Model%20https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpublication%2Fdse-hmm%2F&amp;title=DSE&#43;Stock&#43;Price&#43;Prediction&#43;using&#43;Hidden&#43;Markov&#43;Model" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
         </a>
       </li>
     
@@ -1195,14 +1274,27 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
-
+  
+  
+  
   
 
-  
-  
+
+
+
+
+
+
 
 
 
@@ -1225,7 +1317,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © Raihan Tanvir, 2023
+    © Raihan Tanvir 2024, licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1245,6 +1337,7 @@
 
 
 
+
   <p class="powered-by">
     
     
@@ -1255,7 +1348,7 @@
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
 </footer>
@@ -1264,111 +1357,114 @@
     
   </div>
 
-      
+  
 
-    
-    <script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
 
-    
-    
-    
-      
+<script src="/js/vendor-bundle.min.ff7771056d34ad9f2de2d8f6a466e748.js"></script>
 
-      
-      
 
-      
 
-      
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
-        
-      
 
-    
+  
 
-    
-    
-    
+  
+  
 
-    
-    
+  
 
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
         </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
 
-    
-    
 
-    
-    
-    
-    
 
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
 
-    
 
-    
-    
-    
-    <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
-    
-    
-      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.43c8f7a4851160885a7d8069dfa86538.js"></script>
 
-    
-    
-    
-    
-    
-    
-      
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
 <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -1379,7 +1475,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
+        
+        <pre><code></code></pre>
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
@@ -1394,7 +1491,20 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
