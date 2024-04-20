@@ -286,31 +286,5 @@ $$&lt;/p&gt;
 </description>
     </item>
     
-    <item>
-      <title>Blood Book </title>
-      <link>https://raihan-tanvir.github.io/project/blood-book/</link>
-      <pubDate>Fri, 02 Nov 2018 18:27:57 +0000</pubDate>
-      <guid>https://raihan-tanvir.github.io/project/blood-book/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Blood Book&lt;/strong&gt; is a simple yet very effective application for finding nearby blood donors.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Car Arena</title>
-      <link>https://raihan-tanvir.github.io/project/carena-ecom/</link>
-      <pubDate>Wed, 01 Aug 2018 12:56:37 +0000</pubDate>
-      <guid>https://raihan-tanvir.github.io/project/carena-ecom/</guid>
-      <description>&lt;p&gt;Car Arena is a website developed using HTML, CSS, JavaScript at the client side and raw PHP at the server side.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Super Shop Management System</title>
-      <link>https://raihan-tanvir.github.io/project/super-shop-management-system/</link>
-      <pubDate>Thu, 17 Aug 2017 14:29:44 +0000</pubDate>
-      <guid>https://raihan-tanvir.github.io/project/super-shop-management-system/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
